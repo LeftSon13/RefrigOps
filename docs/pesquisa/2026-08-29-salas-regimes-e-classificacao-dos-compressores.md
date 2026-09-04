@@ -1,7 +1,7 @@
 # Evidência — salas, regimes e classificação dos compressores
 
 - Data do registro: 2026-08-29
-- Tipo: contexto operacional reapresentado e confirmado pelo usuário
+- Tipo: contexto operacional registrado em 2026-08-29, com divergência reaberta em 2026-09-03
 - Fonte: conversas anteriores do projeto RefrigOps
 - Sensibilidade: resumo sanitizado; sem valores instantâneos, pessoas ou detalhes de rede
 
@@ -46,7 +46,7 @@ Classificação operacional relatada: **regime de alta**, atendendo cargas menos
 | Sala | Compressores associados |
 |---|---|
 | Sala 1 | COMP-14 e COMP-11 |
-| Sala 2 | COMP-05, COMP-01 e COMP-09 |
+| Sala 2 | COMP-05 e COMP-01 |
 
 O COMP-10, normalmente associado ao regime de `-5 °C`, pode ser direcionado para ajudar os compressores de alta no regime de `-10 °C`. Isso representa uma atribuição operacional alternativa, não a associação normal mostrada na tabela.
 
@@ -87,9 +87,9 @@ O efeito operacional percebido foi descrito como:
 
 Este registro documenta a percepção operacional, mas não estabelece causalidade quantitativa, sequência de manobra, limite, setpoint ou procedimento. A topologia, as condições de uso e as autorizações precisam ser confirmadas em documentação técnica e procedimento da instalação.
 
-## COMP-09 — classificação confirmada
+## COMP-09 — classificação pendente
 
-O COMP-09 foi confirmado como **compressor do regime de alta**, correspondente ao regime de `-10 °C`. Ele fica na Sala de Máquinas 2 conforme a rota observada.
+**[PENDENTE — DIVERGÊNCIA OPERACIONAL]** O registro de 2026-08-29 classificou o COMP-09 como compressor da Sala 2 no regime de alta de `-10 °C`. O contexto operacional apresentado na revisão de 2026-09-03 não contém esse equipamento. Confirmar com o responsável pelo projeto se ele pertence ao inventário e, em caso positivo, sua sala, seu regime e a presença de inversor.
 
 ## Visão consolidada do que possui regime identificado
 
@@ -98,7 +98,7 @@ O COMP-09 foi confirmado como **compressor do regime de alta**, correspondente a
 | -35 °C | baixa | Sala 1 | 13 |
 | -35 °C | baixa | Sala 2 | 8, 7 e 4 |
 | -10 °C | alta | Sala 1 | 14 e 11 |
-| -10 °C | alta | Sala 2 | 5, 1 e 9 |
+| -10 °C | alta | Sala 2 | 5 e 1 |
 | -5 °C | água gelada / ambiente | Sala 1 | 10, 15 e 16 |
 | -5 °C | água gelada / ambiente | Sala 2 | 6 |
 
@@ -174,3 +174,4 @@ Essa estrutura é apenas direção de descoberta, não decisão de implementaç�
 8. Essas referências são valores típicos, setpoints ou limites?
 9. As pressões são manométricas ou absolutas?
 10. Quais documentos técnicos autorizados confirmam a arquitetura dos regimes?
+11. O COMP-09 pertence a este inventário? Em caso positivo, qual é sua sala, regime e configuração de inversor?

@@ -31,7 +31,7 @@ pertence ao inventário operacional
 ≠ disponibilidade para coleta
 ```
 
-Assim, os 12 compressores chamados de ativos pertencem ao inventário operacional atual, mas não estavam necessariamente ligados no instante das fotografias. O COMP-07 forma a 13ª posição conhecida da rota e estava desmontado, em manutenção.
+Em 2026-08-29, 12 compressores foram registrados como ativos e o COMP-07 como uma 13ª posição desmontada, em manutenção. A revisão de 2026-09-03 identificou que essa contagem depende de uma foto atribuída ao COMP-09, ausente do contexto operacional reapresentado. A linha correspondente foi preservada como pendente, não como inventário confirmado.
 
 ## Matriz consolidada
 
@@ -44,7 +44,7 @@ Assim, os 12 compressores chamados de ativos pertencem ao inventário operaciona
 | 5 | COMP-06 | Sala 2 | normalmente -5 °C — água gelada/ambiente; pode ficar exclusivo para ambiente | ativo no inventário | não registrado | MYPRO TOUCH | 4 | inversor confirmado pelo operador | modelo exato; condições e vigência da atribuição ao serviço |
 | 6 | COMP-05 | Sala 2 | -10 °C — alta | ativo no inventário | não registrado | CPIV | 5 | não confirmada | inversor; modelo exato; dedicação ao regime |
 | 7 | COMP-04 | Sala 2 | -35 °C — baixa | ativo no inventário | não registrado | CPIV | 7 | inversor confirmado pelo operador | modelo exato; dedicação ao regime |
-| 8 | COMP-09 | Sala 2 | -10 °C — alta | ativo no inventário | não registrado | CPIV | 6 | inversor confirmado pelo operador | modelo exato; dedicação ao regime |
+| 8 | identificação atribuída ao COMP-09 — **[PENDENTE]** | a confirmar | a confirmar | a confirmar | não registrado | CPIV na foto 6 | 6 | frequência visível; associação ao equipamento a confirmar | existência; identificação da foto; sala; regime; inversor |
 | 9 | COMP-11 | Sala 1 | -10 °C — alta | ativo no inventário | não registrado | MYCOM legada | 8 | não confirmada | inversor; modelo exato; dedicação ao regime |
 | 10 | COMP-10 | Sala 1 | normalmente -5 °C — água gelada/ambiente; pode ajudar o regime de -10 °C | ativo no inventário | não registrado | MYPRO TOUCH | 9 | não confirmada | inversor; modelo exato; condições e vigência da mudança de regime |
 | 11 | COMP-15 | Sala 1 | -5 °C — exclusivo para água gelada | ativo no inventário | não registrado | MYCOM legada | 10 | não confirmada | inversor; modelo exato; dedicação física a confirmar documentalmente |
@@ -53,13 +53,14 @@ Assim, os 12 compressores chamados de ativos pertencem ao inventário operaciona
 
 ### Observações sobre a coluna de frequência
 
-A presença de inversor foi confirmada pelo operador para:
+A presença de inversor permanece confirmada no contexto atual para:
 
 - COMP-04;
 - COMP-06;
-- COMP-09.
 
-Para os demais compressores, essa informação permanece desconhecida. Nos três equipamentos confirmados, ainda precisa ser validado se:
+O registro histórico também atribuiu inversor ao COMP-09, mas existência, identificação da foto e configuração desse equipamento precisam ser reconfirmadas.
+
+Para os demais compressores, essa informação permanece desconhecida. Nos equipamentos confirmados e, se validado, no COMP-09, ainda precisa ser verificado se:
 
 - o valor corresponde à frequência efetiva do motor principal;
 - essa é a mesma leitura anotada no caderno;
@@ -116,7 +117,7 @@ Este quadro serve para orientar a entrevista e a observação. Rótulos parecido
 | Regime | Classificação operacional relatada | Aplicações relatadas | Compressores |
 |---|---|---|---|
 | -35 °C | baixa | túneis, girofreezer e câmaras de estocagem | 13, 8, 7 e 4 |
-| -10 °C | alta | cargas menos frias que o regime de -35 °C; pode receber ajuda do COMP-10 em configuração relatada | 14, 11, 5, 1 e 9 normalmente; COMP-10 em atribuição alternativa |
+| -10 °C | alta | cargas menos frias que o regime de -35 °C; pode receber ajuda do COMP-10 em configuração relatada | 14, 11, 5 e 1 normalmente; COMP-10 em atribuição alternativa; COMP-09 pendente |
 | -5 °C | água gelada/ambiente | COMP-15 e COMP-16 exclusivos para água gelada; COMP-06 e COMP-10 normalmente atendem água gelada e ambiente | 10, 15, 16 e 6 na configuração normal relatada |
 
 Os nomes dos regimes são classificações operacionais. Não representam automaticamente temperatura instantânea, temperatura de evaporação, pressão de sucção ou setpoint.
@@ -137,7 +138,7 @@ Quando COMP-06 ou COMP-10 muda de atendimento, a mudança é anotada no **Cadern
 
 ## Limite da rota de compressores
 
-A rota dos compressores foi confirmada como completa com as 13 posições da matriz. Depois do COMP-01, a ronda segue para os recipientes de amônia, chamados informalmente de garrafas, onde é feita a leitura de um manômetro aplicável.
+O registro de 2026-08-29 descreveu a rota como completa com 13 posições. Como uma delas foi atribuída ao COMP-09, a contagem permanece pendente. Está preservado o relato de que, depois dos compressores, a ronda segue para os recipientes de amônia, chamados informalmente de garrafas, onde é feita a leitura de um manômetro aplicável.
 
 ## Lacunas que impedem uma modelagem definitiva
 
@@ -145,7 +146,8 @@ A rota dos compressores foi confirmada como completa com as 13 posições da mat
 
 - fabricante e modelo completo do compressor;
 - modelo e versão exatos do controlador;
-- presença de inversor nos compressores além de COMP-04, COMP-06 e COMP-09;
+- existência, identificação, sala, regime e presença de inversor do COMP-09;
+- presença de inversor nos compressores além de COMP-04 e COMP-06;
 - serviço ou carga atendida individualmente;
 - campos realmente aplicáveis na ronda;
 - unidades exibidas em cada tela;
@@ -165,7 +167,7 @@ A rota dos compressores foi confirmada como completa com as 13 posições da mat
 
 ### Ao operador
 
-1. Além dos COMP-04, COMP-06 e COMP-09, algum outro compressor possui inversor de frequência?
+1. O COMP-09 pertence ao inventário e possui inversor? Além dos COMP-04 e COMP-06, algum outro compressor possui inversor de frequência?
 2. Em cada compressor com inversor, qual campo da IHM é copiado para o caderno?
 3. No caderno, “capacidade” corresponde a qual sigla em cada uma das três famílias de IHM?
 

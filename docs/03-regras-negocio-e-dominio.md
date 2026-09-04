@@ -254,7 +254,7 @@ sourceType: LOCAL_HMI
 sourceReference: controlador do compressor
 ```
 
-Nos compressores com inversor, a frequência é registrada em hertz. A presença de inversor foi confirmada operacionalmente para COMP-04, COMP-06 e COMP-09; os demais permanecem pendentes.
+Nos compressores com inversor, a frequência é registrada em hertz. A presença de inversor foi confirmada operacionalmente para COMP-04 e COMP-06; a afirmação sobre o COMP-09 e os demais equipamentos permanece pendente.
 
 ### Perfis diferentes de controlador
 
@@ -275,11 +275,11 @@ hasVariableFrequencyDrive
 measurementProfile
 ```
 
-**[CONFIRMADO — CONTEXTO OPERACIONAL]** O COMP-09 pertence ao regime de alta, identificado operacionalmente como `-10 °C`.
+**[PENDENTE — DIVERGÊNCIA OPERACIONAL]** O pacote documental de 2026-08-29 associou o COMP-09 ao regime de alta de `-10 °C`, mas o contexto fornecido na revisão de 2026-09-03 não contém esse equipamento. A associação não deve orientar modelagem enquanto existência, sala e regime não forem confirmados.
 
 ### Regime e atribuição operacional
 
-**[CONFIRMADO — CONTEXTO OPERACIONAL]** Foram relatadas associações atuais entre compressores e regimes `-35 °C`, `-10 °C` e `-5 °C`. O COMP-09 está associado ao regime de alta de `-10 °C`.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** Foram relatadas associações entre compressores e regimes `-35 °C`, `-10 °C` e `-5 °C`. A lista confirmada nesta revisão não inclui o COMP-09; sua associação histórica ao regime de `-10 °C` permanece pendente.
 
 **[CONFIRMADO — CONTEXTO OPERACIONAL]** COMP-15 e COMP-16 são exclusivos para água gelada. COMP-06 e COMP-10 normalmente atendem água gelada e ambiente, mas podem receber atribuições diferentes: COMP-06 exclusivo para ambiente e COMP-10 ajudando o regime de alta de `-10 °C`. Também foi relatada interligação entre as redes de `-10 °C` e `-5 °C`.
 

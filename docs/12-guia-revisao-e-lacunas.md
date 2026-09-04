@@ -74,22 +74,22 @@ Leia:
 - alguém transfere posteriormente dados para um computador;
 - manutenção externa já consultou o caderno para analisar data específica;
 - um aplicativo móvel anterior existiu e foi abandonado por motivo desconhecido;
-- existem 12 compressores descritos como ativos no inventário observado;
+- em 2026-08-29 foram registrados 12 compressores como ativos no inventário observado, mas a contagem precisa ser reconfirmada devido à divergência do COMP-09;
 - foram observadas pelo menos três famílias de IHM/controlador local;
 - equipamentos ativos no inventário podem estar parados durante a ronda;
 - as famílias de IHM não apresentam exatamente o mesmo conjunto de siglas e campos;
-- a rota contém 13 posições; o COMP-07 não foi fotografado porque está desmontado e em manutenção;
+- a rota foi registrada com 13 posições; o COMP-07 não foi fotografado porque está desmontado e em manutenção, mas a contagem total depende da confirmação do COMP-09;
 - COMP-13 e COMP-01, cujas placas não apareciam nas fotos, foram confirmados pelo operador;
-- todas as 12 fotos estão identificadas; a sexta corresponde ao COMP-09, pertencente ao regime de alta de -10 °C;
+- existem 12 fotos de controladores; a atribuição da sexta ao COMP-09, assim como sala e regime, precisa ser reconfirmada;
 - existem regimes operacionais denominados -35 °C, -10 °C e -5 °C;
-- foi fornecida uma associação de 13 compressores aos regimes: 12 ativos e o COMP-07 em manutenção;
-- o COMP-09 pertence ao regime de alta de -10 °C;
-- os COMP-04, COMP-06 e COMP-09 possuem inversor de frequência;
+- foi registrada uma associação de 13 posições aos regimes, com 12 ativos e o COMP-07 em manutenção; a divergência do COMP-09 impede tratar a contagem completa como confirmada;
+- **[PENDENTE]** confirmar se o COMP-09 pertence ao inventário e, em caso positivo, sua sala e seu regime;
+- os COMP-04 e COMP-06 possuem inversor de frequência; a afirmação sobre o COMP-09 permanece pendente;
 - COMP-15 e COMP-16 são exclusivos para água gelada;
 - COMP-06 e COMP-10 normalmente atendem água gelada e ambiente;
 - COMP-06 pode ser direcionado exclusivamente para ambiente, enquanto COMP-10 pode ajudar o regime de alta de -10 °C;
 - existe uma interligação operacional relatada entre as redes de -10 °C e -5 °C;
-- a sequência das 13 posições de compressores foi confirmada como completa e depois segue para os recipientes/manômetros;
+- segundo o registro de 2026-08-29, depois da sequência dos compressores a ronda segue para os recipientes/manômetros; a completude das 13 posições depende da confirmação do COMP-09;
 - mudanças de atendimento dos COMP-06 e COMP-10 são anotadas no Caderno dos Turnos e também informadas verbalmente;
 - o conteúdo verbal da passagem varia entre operadores; alguns comunicam somente quebras ou situações que não conseguiram resolver;
 - existe um registro chamado Caderno dos Turnos, separado do caderno de leituras, para anotar data sem horário, acontecimentos e atividades realizadas e informar os turnos seguintes;
@@ -128,7 +128,7 @@ Leia:
 - O `set-point` corresponde à pressão de sucção? Qual é a unidade e quem o define?
 - O que significam oficialmente `SP`, `DP`, `OP`, `OF`, `IP`, `SH-SP`, `SH-DP`, `ST`, `DT`, `OT`, `IT`, `OST` e `SV`?
 - A corrente exibida está em ampères e `Pot.` está em quilowatts?
-- Nos COMP-04, COMP-06 e COMP-09, onde a frequência é consultada e existe registro histórico? Algum outro compressor possui inversor?
+- Nos COMP-04 e COMP-06, onde a frequência é consultada e existe registro histórico? O COMP-09 pertence ao inventário e possui inversor? Algum outro compressor possui inversor?
 - O regime de -5 °C é chamado apenas de água gelada/ambiente ou também recebe o nome de alta em algum contexto?
 - Quais condições, autorizações e registros se aplicam às mudanças de atendimento dos COMP-06 e COMP-10?
 - Qual é a topologia e a finalidade oficial da interligação entre as redes de -10 °C e -5 °C?

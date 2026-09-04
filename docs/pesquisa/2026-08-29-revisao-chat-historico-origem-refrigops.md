@@ -56,7 +56,7 @@ Referência de sucção relatada: negativa, próxima de `-10`, sem unidade confi
 
 Referência de sucção relatada: positiva, aproximadamente entre `1,9` e `2,4`, sem unidade confirmada.
 
-O COMP-09 foi posteriormente confirmado pelo operador como pertencente a este regime.
+O registro de 2026-08-29 afirmou que o COMP-09 havia sido confirmado nesse regime. Na revisão de 2026-09-03, essa afirmação entrou em conflito com o contexto operacional reapresentado e foi reclassificada como **[PENDENTE]**. Confirmar existência, sala e regime diretamente com o responsável pelo projeto.
 
 ### -5 °C — água gelada e ambiente
 
