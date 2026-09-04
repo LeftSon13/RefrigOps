@@ -19,7 +19,7 @@
 
 - a mesma folha é usada; os outros compressores ficam no verso;
 - a rota segue o layout físico das salas 1 e 2;
-- a sequência de 13 posições de compressores foi confirmada como completa;
+- a sequência contém 13 posições de compressores classificados;
 - depois dos compressores, a ronda segue para os recipientes de amônia, chamados informalmente de garrafas, para leitura de um manômetro aplicável;
 - mudanças de atendimento dos COMP-06 e COMP-10 são anotadas no Caderno dos Turnos e também comunicadas verbalmente;
 - a ronda registra compressores ligados;
@@ -35,6 +35,8 @@
 - aplicativo móvel anterior foi abandonado sem causa conhecida.
 
 ## Sequência confirmada da ronda
+
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** O COMP-09 pertence à Sala de Máquinas 2, trabalha no regime de `-10 °C` e é classificado operacionalmente como compressor de alta.
 
 ```text
 Sala 1: COMP-14 → COMP-13

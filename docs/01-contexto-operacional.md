@@ -25,7 +25,7 @@ O contexto envolve refrigeração industrial com amônia R717. Foram mencionados
 
 O nível exato de instrumentação, automação e integração de cada equipamento ainda não está inventariado.
 
-**[CONFIRMADO — RELATO E ARTEFATOS OPERACIONAIS]** O operador informou a existência de 12 compressores ativos no inventário atual das salas observadas. Um conjunto de 12 fotografias mostrou pelo menos três famílias de controlador local: MYCOM legada (`MBR-2`/`MBR-4`), MAYEKAWA `CONTROL SYSTEM CPIV` e MAYEKAWA `MYPRO TOUCH`.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** Existem 13 compressores classificados neste inventário operacional. Foram analisadas 12 fotografias de controladores locais, com pelo menos três famílias de interface: MYCOM legada (`MBR-2`/`MBR-4`), MAYEKAWA `CONTROL SYSTEM CPIV` e MAYEKAWA `MYPRO TOUCH`. O COMP-07 não foi fotografado porque estava desmontado e em manutenção.
 
 Neste contexto, equipamento ativo não é sinônimo de equipamento funcionando. Algumas telas estavam paradas ou em outro estado no instante da fotografia.
 
@@ -63,7 +63,7 @@ Recipientes de amônia
 Retorno à sala para consultar a tabela de pressão equivalente
 ```
 
-**[CONFIRMADO — RELATO OPERACIONAL]** Essa sequência representa a rota completa atual dos compressores. Depois dela, o operador segue para os recipientes de amônia, chamados informalmente de garrafas, e lê um manômetro aplicável antes de consultar a tabela.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** Essa sequência representa a rota completa dos 13 compressores classificados neste inventário. Depois dela, o operador segue para os recipientes de amônia, chamados informalmente de garrafas, e lê um manômetro aplicável antes de consultar a tabela.
 
 **[CONFIRMADO — CONTEXTO OPERACIONAL]** Foram relatados três regimes/aplicações, identificados como `-35 °C`, `-10 °C` e `-5 °C`. Esses valores são nomes operacionais de regime e não devem ser tratados automaticamente como temperatura instantânea, pressão ou setpoint.
 
@@ -73,9 +73,9 @@ Retorno à sala para consultar a tabela de pressão equivalente
 | -10 °C | alta | COMP-14 e COMP-11 | COMP-05, COMP-01 e COMP-09 |
 | -5 °C | água gelada / ambiente | COMP-10, COMP-15 e COMP-16 | COMP-06 |
 
-**[CONFIRMADO — RELATO OPERACIONAL]** O COMP-09 pertence ao regime de alta, correspondente a `-10 °C`.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** O COMP-09 pertence à Sala de Máquinas 2, trabalha no regime de `-10 °C` e é classificado operacionalmente como compressor de alta.
 
-**[CONFIRMADO — RELATO OPERACIONAL]** Os COMP-04, COMP-06 e COMP-09 possuem inversor de frequência. A existência de inversor nos demais compressores ainda não foi confirmada.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** Os COMP-04, COMP-06 e COMP-09 possuem inversor de frequência. A presença de inversor nos demais compressores ainda precisa ser confirmada.
 
 No grupo normalmente associado a `-5 °C`:
 
@@ -117,7 +117,7 @@ Portanto, mesmo que dados numéricos possam futuramente ser integrados, a presen
 
 **[DECISÃO DE PRODUTO]** O roteiro mobile deve acompanhar a rota física e permitir observações qualitativas, não apenas reproduzir a grade numérica do papel.
 
-**[CONFIRMADO — RELATO OPERACIONAL]** A rota contém 13 posições, mas foram fotografados 12 compressores porque o COMP-07 está desmontado e em manutenção.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** A rota contém 13 posições classificadas. Foram fotografados 12 compressores porque o COMP-07 estava desmontado e em manutenção.
 
 ## 4. Fragmentação atual da informação
 
@@ -247,7 +247,7 @@ Foram relatadas falhas de comunicação em dois tipos de situação:
 - uma atividade atribuída a um turno futuro pode ser esquecida e precisar ser adiada;
 - uma restrição operacional anotada com antecedência para uma data futura pode perder visibilidade quando a data chega.
 
-Um exemplo citou a expressão operacional “fazer vazio” no COMP-09. O significado técnico não foi interpretado. Outro exemplo tratou de não ligar um compressor em determinada data. O RefrigOps pode apoiar registro, validade e confirmação de ciência, mas não pode decidir, bloquear, liberar ou comandar o equipamento.
+Um registro histórico citou a expressão operacional “fazer vazio” no COMP-09. O significado técnico da expressão não foi interpretado. Outro exemplo tratou de não ligar um compressor em determinada data. O RefrigOps pode apoiar registro, validade e confirmação de ciência, mas não pode decidir, bloquear, liberar ou comandar o equipamento.
 
 **[HIPÓTESE]** Um resumo estruturado poderia reduzir perda de contexto. O restante do processo atual ainda precisa ser observado e descrito sem suposições, inclusive o conteúdo que fica apenas na comunicação verbal.
 

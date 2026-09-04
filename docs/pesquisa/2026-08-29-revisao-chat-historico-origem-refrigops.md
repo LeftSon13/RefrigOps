@@ -56,7 +56,7 @@ Referência de sucção relatada: negativa, próxima de `-10`, sem unidade confi
 
 Referência de sucção relatada: positiva, aproximadamente entre `1,9` e `2,4`, sem unidade confirmada.
 
-O COMP-09 foi posteriormente confirmado pelo operador como pertencente a este regime.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** O responsável pelo projeto confirmou que o COMP-09 pertence à Sala de Máquinas 2, trabalha no regime de `-10 °C` e é classificado operacionalmente como compressor de alta.
 
 ### -5 °C — água gelada e ambiente
 

@@ -1,7 +1,7 @@
 # Evidência — salas, regimes e classificação dos compressores
 
 - Data do registro: 2026-08-29
-- Tipo: contexto operacional reapresentado e confirmado pelo usuário
+- Tipo: contexto operacional confirmado pelo responsável pelo projeto
 - Fonte: conversas anteriores do projeto RefrigOps
 - Sensibilidade: resumo sanitizado; sem valores instantâneos, pessoas ou detalhes de rede
 
@@ -89,7 +89,7 @@ Este registro documenta a percepção operacional, mas não estabelece causalida
 
 ## COMP-09 — classificação confirmada
 
-O COMP-09 foi confirmado como **compressor do regime de alta**, correspondente ao regime de `-10 °C`. Ele fica na Sala de Máquinas 2 conforme a rota observada.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** O COMP-09 pertence à Sala de Máquinas 2, trabalha no regime de `-10 °C` e é classificado operacionalmente como compressor de alta.
 
 ## Visão consolidada do que possui regime identificado
 
@@ -174,3 +174,4 @@ Essa estrutura é apenas direção de descoberta, não decisão de implementaç�
 8. Essas referências são valores típicos, setpoints ou limites?
 9. As pressões são manométricas ou absolutas?
 10. Quais documentos técnicos autorizados confirmam a arquitetura dos regimes?
+11. Além dos COMP-04, COMP-06 e COMP-09, quais compressores possuem inversor de frequência?

@@ -116,7 +116,7 @@ Consulte o registro de fontes em [`pesquisa/2026-08-29-fontes-oficiais-controlad
 
 **[CONFIRMADO — CONTEXTO OPERACIONAL]** Quando o compressor possui inversor, o operador anota a frequência efetiva de funcionamento em hertz. Esse valor é diferente da capacidade percentual e do setpoint.
 
-**[CONFIRMADO — CONTEXTO OPERACIONAL]** Os COMP-04, COMP-06 e COMP-09 possuem inversor de frequência. A presença de inversor nos demais compressores ainda não foi confirmada.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** Os COMP-04, COMP-06 e COMP-09 possuem inversor de frequência. A presença de inversor nos demais compressores ainda precisa ser confirmada.
 
 ### Manômetro local
 
@@ -133,6 +133,8 @@ Consulte o registro de fontes em [`pesquisa/2026-08-29-fontes-oficiais-controlad
 ### Formulário legado
 
 **[HISTÓRICO — CONVERSA]** Recebia valores digitados e apresentava um “Percentual de Ar”. O significado e a validade metrológica não estão confirmados.
+
+**[DECISÃO DE TERMINOLOGIA]** Se esse resultado precisar ser preservado por compatibilidade histórica, usar um nome cauteloso como `legacyNonCondensableIndicator`. Ele não representa percentual físico validado de ar e não pode ser associado à automação de purga.
 
 ## 4. Pressão e temperatura de saturação
 

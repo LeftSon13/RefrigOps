@@ -31,7 +31,7 @@ pertence ao inventário operacional
 ≠ disponibilidade para coleta
 ```
 
-Assim, os 12 compressores chamados de ativos pertencem ao inventário operacional atual, mas não estavam necessariamente ligados no instante das fotografias. O COMP-07 forma a 13ª posição conhecida da rota e estava desmontado, em manutenção.
+Existem 13 compressores classificados neste inventário operacional. O COMP-07 estava desmontado e em manutenção no momento do registro. O responsável pelo projeto confirmou o COMP-09 na Sala de Máquinas 2, no regime de `-10 °C`, como compressor de alta.
 
 ## Matriz consolidada
 
@@ -53,13 +53,13 @@ Assim, os 12 compressores chamados de ativos pertencem ao inventário operaciona
 
 ### Observações sobre a coluna de frequência
 
-A presença de inversor foi confirmada pelo operador para:
+A presença de inversor permanece confirmada no contexto atual para:
 
 - COMP-04;
 - COMP-06;
 - COMP-09.
 
-Para os demais compressores, essa informação permanece desconhecida. Nos três equipamentos confirmados, ainda precisa ser validado se:
+Para os demais compressores, essa informação permanece desconhecida. Nos três equipamentos com inversor confirmado, ainda precisa ser verificado se:
 
 - o valor corresponde à frequência efetiva do motor principal;
 - essa é a mesma leitura anotada no caderno;
@@ -137,7 +137,7 @@ Quando COMP-06 ou COMP-10 muda de atendimento, a mudança é anotada no **Cadern
 
 ## Limite da rota de compressores
 
-A rota dos compressores foi confirmada como completa com as 13 posições da matriz. Depois do COMP-01, a ronda segue para os recipientes de amônia, chamados informalmente de garrafas, onde é feita a leitura de um manômetro aplicável.
+A rota dos compressores contém 13 posições classificadas. Depois do COMP-01, a ronda segue para os recipientes de amônia, chamados informalmente de garrafas, onde é feita a leitura de um manômetro aplicável.
 
 ## Lacunas que impedem uma modelagem definitiva
 

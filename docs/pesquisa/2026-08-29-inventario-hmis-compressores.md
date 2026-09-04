@@ -7,9 +7,9 @@
 
 ## Contexto do registro
 
-O operador informou que existem **12 compressores ativos na sala** e fotografou a tela local de cada um. Neste registro, `ativo` significa pertencente ao inventário operacional atual; não significa necessariamente que o compressor estava funcionando no instante da fotografia.
+Existem **13 compressores classificados neste inventário operacional**. Foram analisadas 12 fotografias de telas locais; neste registro, `ativo` significa pertencente ao inventário operacional e não que o compressor estava funcionando no instante da fotografia.
 
-A rota física também passa pelo compressor 7, que não foi fotografado porque se encontra desmontado e em manutenção. Portanto, a rota possui 13 posições conhecidas, mas o conjunto fotográfico contém os outros 12 compressores.
+A rota também passa pelo COMP-07, que não foi fotografado porque se encontrava desmontado e em manutenção. O responsável pelo projeto confirmou que a foto 6 corresponde ao COMP-09, equipamento da Sala de Máquinas 2, do regime de `-10 °C`, classificado como compressor de alta e dotado de inversor de frequência.
 
 As fotografias são evidência de interface e de diversidade dos equipamentos. Os valores mostrados são instantâneos e não foram usados para diagnosticar condição, desempenho ou segurança.
 
@@ -42,11 +42,12 @@ Foram observadas pelo menos três famílias de interface:
 
 O compressor 7 não integra a tabela porque não foi fotografado. Ele está desmontado e seu estado operacional foi confirmado como manutenção.
 
-A associação conhecida entre salas, regimes e compressores está registrada separadamente em [`2026-08-29-salas-regimes-e-classificacao-dos-compressores.md`](2026-08-29-salas-regimes-e-classificacao-dos-compressores.md).
+A associação confirmada entre salas, regimes e compressores está em [`2026-08-29-salas-regimes-e-classificacao-dos-compressores.md`](2026-08-29-salas-regimes-e-classificacao-dos-compressores.md).
 
 Também foi confirmado que:
 
-- os COMP-04, COMP-06 e COMP-09 possuem inversor de frequência;
+- os COMP-04 e COMP-06 possuem inversor de frequência;
+- o COMP-09 possui inversor de frequência e corresponde à foto 6;
 - a presença de inversor nos demais compressores ainda é desconhecida;
 - equipamentos do inventário podem estar parados no momento da ronda;
 - algumas telas exibem mensagens ou estados como `STOPPED`, `MANUAL`, `NORMAL`, manutenção e alarme;
