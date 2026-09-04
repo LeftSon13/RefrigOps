@@ -94,7 +94,7 @@ Turno 1 registra que o terceiro turno deve “fazer vazio” no COMP-09
 
 “Fazer vazio” foi preservado como expressão operacional do relato. Seu significado técnico, condições e procedimento não foram definidos neste documento.
 
-Esse exemplo histórico também não confirma por si só a existência, a identificação, a sala ou o regime do COMP-09. Esses pontos permanecem pendentes devido à divergência registrada em `docs/11-contexto-atual.md`.
+O COMP-09 foi posteriormente confirmado no inventário da Sala de Máquinas 2, no regime de `-10 °C`, com classificação operacional de compressor de alta. Isso não altera o caráter histórico do exemplo nem define o significado técnico de “fazer vazio”.
 
 ### Restrição válida para uma data futura
 

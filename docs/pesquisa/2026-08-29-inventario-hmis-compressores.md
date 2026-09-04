@@ -7,9 +7,9 @@
 
 ## Contexto do registro
 
-Em 2026-08-29 foi registrado que existiam **12 compressores ativos nas salas** e foram analisadas 12 fotografias de telas locais. Neste registro, `ativo` significava pertencente ao inventário operacional; não significava necessariamente que o compressor estava funcionando no instante da fotografia. A contagem e a correspondência completa entre fotos e equipamentos precisam ser reconfirmadas devido à divergência do COMP-09.
+Existem **13 compressores classificados neste inventário operacional**. Foram analisadas 12 fotografias de telas locais; neste registro, `ativo` significa pertencente ao inventário operacional e não que o compressor estava funcionando no instante da fotografia.
 
-A rota registrada também passa pelo COMP-07, que não foi fotografado porque se encontrava desmontado e em manutenção. O total histórico de 13 posições incluía uma foto atribuída ao COMP-09; por isso, a contagem atual permanece pendente até essa identificação ser validada.
+A rota também passa pelo COMP-07, que não foi fotografado porque se encontrava desmontado e em manutenção. O responsável pelo projeto confirmou que a foto 6 corresponde ao COMP-09, equipamento da Sala de Máquinas 2, do regime de `-10 °C`, classificado como compressor de alta e dotado de inversor de frequência.
 
 As fotografias são evidência de interface e de diversidade dos equipamentos. Os valores mostrados são instantâneos e não foram usados para diagnosticar condição, desempenho ou segurança.
 
@@ -32,7 +32,7 @@ Foram observadas pelo menos três famílias de interface:
 | 3 | COMP-08 | CPIV | identificação visível |
 | 4 | COMP-06 | MYPRO TOUCH | identificação manuscrita visível |
 | 5 | COMP-05 | CPIV | identificação visível |
-| 6 | identificação atribuída ao COMP-09 — **[PENDENTE]** | CPIV, tela com `COMP 52.8 Hz` | registro histórico; reconfirmar equipamento, sala e regime |
+| 6 | COMP-09 — regime de alta (-10 °C) | CPIV, tela com `COMP 52.8 Hz` | confirmado pelo operador |
 | 7 | COMP-04 | CPIV | identificação manuscrita visível |
 | 8 | COMP-11 | MYCOM legada | identificação visível |
 | 9 | COMP-10 | MYPRO TOUCH | identificação visível |
@@ -42,12 +42,12 @@ Foram observadas pelo menos três famílias de interface:
 
 O compressor 7 não integra a tabela porque não foi fotografado. Ele está desmontado e seu estado operacional foi confirmado como manutenção.
 
-A associação historicamente registrada entre salas, regimes e compressores está em [`2026-08-29-salas-regimes-e-classificacao-dos-compressores.md`](2026-08-29-salas-regimes-e-classificacao-dos-compressores.md), com a divergência do COMP-09 explicitada.
+A associação confirmada entre salas, regimes e compressores está em [`2026-08-29-salas-regimes-e-classificacao-dos-compressores.md`](2026-08-29-salas-regimes-e-classificacao-dos-compressores.md).
 
 Também foi confirmado que:
 
 - os COMP-04 e COMP-06 possuem inversor de frequência;
-- a identificação da foto atribuída ao COMP-09 e a presença de inversor nesse equipamento permanecem pendentes;
+- o COMP-09 possui inversor de frequência e corresponde à foto 6;
 - a presença de inversor nos demais compressores ainda é desconhecida;
 - equipamentos do inventário podem estar parados no momento da ronda;
 - algumas telas exibem mensagens ou estados como `STOPPED`, `MANUAL`, `NORMAL`, manutenção e alarme;
@@ -163,7 +163,7 @@ O RefrigOps permanece uma ferramenta de registro, consulta e apoio. A existênci
 2. `Amônia` e `Água Gelada` identificam serviço, circuito, regime ou outra classificação?
 3. Quais siglas são usadas efetivamente para preencher cada linha do caderno?
 4. O valor apresentado como `kgf` nas telas novas significa `kgf/cm²`?
-5. O COMP-09 pertence ao inventário e possui inversor? Além dos COMP-04 e COMP-06, quais equipamentos possuem inversor?
+5. Além dos COMP-04, COMP-06 e COMP-09, quais equipamentos possuem inversor?
 6. Os contadores e eventos são consultados pela operação ou apenas pela manutenção?
 7. Existem manuais e modelos exatos de cada controlador disponíveis para consulta autorizada?
 

@@ -116,7 +116,7 @@ Consulte o registro de fontes em [`pesquisa/2026-08-29-fontes-oficiais-controlad
 
 **[CONFIRMADO — CONTEXTO OPERACIONAL]** Quando o compressor possui inversor, o operador anota a frequência efetiva de funcionamento em hertz. Esse valor é diferente da capacidade percentual e do setpoint.
 
-**[CONFIRMADO — CONTEXTO OPERACIONAL]** Os COMP-04 e COMP-06 possuem inversor de frequência. A afirmação sobre o COMP-09 e a presença de inversor nos demais compressores ainda precisam ser confirmadas.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** Os COMP-04, COMP-06 e COMP-09 possuem inversor de frequência. A presença de inversor nos demais compressores ainda precisa ser confirmada.
 
 ### Manômetro local
 
@@ -285,8 +285,7 @@ Os nomes precisam ser traduzidos para a linguagem da operação e definidos ante
 - todos os significados e unidades das siglas do controlador local;
 - existência de histórico interno no controlador;
 - existência de interface de comunicação e autorização para consulta somente leitura;
-- localização e rótulo exatos da leitura de frequência nos COMP-04 e COMP-06;
-- existência, regime e presença de inversor do COMP-09;
+- localização e rótulo exatos da leitura de frequência nos COMP-04, COMP-06 e COMP-09;
 - existência de inversor nos demais compressores.
 - relação validada entre siglas de MYCOM legada, CPIV e MYPRO TOUCH;
 - significado da unidade abreviada `kgf` nas telas recentes;

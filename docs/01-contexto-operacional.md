@@ -25,7 +25,7 @@ O contexto envolve refrigeração industrial com amônia R717. Foram mencionados
 
 O nível exato de instrumentação, automação e integração de cada equipamento ainda não está inventariado.
 
-**[HISTÓRICO — RELATO E ARTEFATOS OPERACIONAIS]** Em 2026-08-29 foi registrada a informação de 12 compressores ativos no inventário e foram analisadas 12 fotografias de controladores locais, com pelo menos três famílias de interface: MYCOM legada (`MBR-2`/`MBR-4`), MAYEKAWA `CONTROL SYSTEM CPIV` e MAYEKAWA `MYPRO TOUCH`. A contagem e a correspondência completa entre fotos e equipamentos precisam ser reconfirmadas por causa da divergência sobre o COMP-09.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** Existem 13 compressores classificados neste inventário operacional. Foram analisadas 12 fotografias de controladores locais, com pelo menos três famílias de interface: MYCOM legada (`MBR-2`/`MBR-4`), MAYEKAWA `CONTROL SYSTEM CPIV` e MAYEKAWA `MYPRO TOUCH`. O COMP-07 não foi fotografado porque estava desmontado e em manutenção.
 
 Neste contexto, equipamento ativo não é sinônimo de equipamento funcionando. Algumas telas estavam paradas ou em outro estado no instante da fotografia.
 
@@ -50,7 +50,7 @@ A ronda não se resume a transcrever números. O operador percebe sinais que pod
 
 ## 3.1 Fluxo observado de uma ronda de leitura
 
-**[PENDENTE — DIVERGÊNCIA OPERACIONAL]** A sequência abaixo foi registrada em 2026-08-29 como rota completa, mas inclui o COMP-09. Ela deve permanecer como registro histórico até a identificação desse equipamento ser confirmada pelo responsável do projeto.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]**
 
 O operador pega o caderno e percorre os equipamentos conforme o layout físico, não por ordem numérica:
 
@@ -63,19 +63,19 @@ Recipientes de amônia
 Retorno à sala para consultar a tabela de pressão equivalente
 ```
 
-**[HISTÓRICO — RELATO OPERACIONAL]** Segundo o registro de 2026-08-29, depois dos compressores o operador segue para os recipientes de amônia, chamados informalmente de garrafas, e lê um manômetro aplicável antes de consultar a tabela. A completude da sequência de compressores depende da resolução do COMP-09.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** Essa sequência representa a rota completa dos 13 compressores classificados neste inventário. Depois dela, o operador segue para os recipientes de amônia, chamados informalmente de garrafas, e lê um manômetro aplicável antes de consultar a tabela.
 
 **[CONFIRMADO — CONTEXTO OPERACIONAL]** Foram relatados três regimes/aplicações, identificados como `-35 °C`, `-10 °C` e `-5 °C`. Esses valores são nomes operacionais de regime e não devem ser tratados automaticamente como temperatura instantânea, pressão ou setpoint.
 
 | Regime | Classificação relatada | Sala 1 | Sala 2 |
 |---|---|---|---|
 | -35 °C | baixa | COMP-13 | COMP-08, COMP-07 e COMP-04 |
-| -10 °C | alta | COMP-14 e COMP-11 | COMP-05 e COMP-01 |
+| -10 °C | alta | COMP-14 e COMP-11 | COMP-05, COMP-01 e COMP-09 |
 | -5 °C | água gelada / ambiente | COMP-10, COMP-15 e COMP-16 | COMP-06 |
 
-**[PENDENTE — DIVERGÊNCIA OPERACIONAL]** O pacote documental de 2026-08-29 associou o COMP-09 à Sala 2 e ao regime de `-10 °C`, mas o contexto operacional apresentado na revisão de 2026-09-03 não o contém. Confirmar se o equipamento pertence ao inventário e, em caso positivo, sua sala e seu regime.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** O COMP-09 pertence à Sala de Máquinas 2, trabalha no regime de `-10 °C` e é classificado operacionalmente como compressor de alta.
 
-**[CONFIRMADO — CONTEXTO OPERACIONAL]** Os COMP-04 e COMP-06 possuem inversor de frequência. A afirmação equivalente sobre o COMP-09 e a existência de inversor nos demais compressores ainda precisam ser confirmadas.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** Os COMP-04, COMP-06 e COMP-09 possuem inversor de frequência. A presença de inversor nos demais compressores ainda precisa ser confirmada.
 
 No grupo normalmente associado a `-5 °C`:
 
@@ -117,7 +117,7 @@ Portanto, mesmo que dados numéricos possam futuramente ser integrados, a presen
 
 **[DECISÃO DE PRODUTO]** O roteiro mobile deve acompanhar a rota física e permitir observações qualitativas, não apenas reproduzir a grade numérica do papel.
 
-**[PENDENTE — DIVERGÊNCIA OPERACIONAL]** O registro de 2026-08-29 contabilizou 13 posições e 12 compressores fotografados, com o COMP-07 desmontado e em manutenção. A contagem atual precisa ser reconfirmada porque uma das posições foi atribuída ao COMP-09.
+**[CONFIRMADO — CONTEXTO OPERACIONAL]** A rota contém 13 posições classificadas. Foram fotografados 12 compressores porque o COMP-07 estava desmontado e em manutenção.
 
 ## 4. Fragmentação atual da informação
 
@@ -164,8 +164,7 @@ BOMB-02 → Bomba 2
 - relação entre equipamento físico e ponto de medição;
 - fabricante e família/modelo do controlador local;
 - aplicação ou serviço indicado na identificação, como amônia ou água gelada;
-- situação do COMP-09 no inventário, sua sala, seu regime e a presença de inversor;
-- presença de inversor nos compressores além de COMP-04 e COMP-06;
+- presença de inversor nos compressores além de COMP-04, COMP-06 e COMP-09;
 - conjunto de pontos aplicáveis a cada equipamento.
 - regime/aplicação normalmente atendido;
 - condições, autorizações, topologia e registro das interligações e mudanças de regime relatadas;
@@ -248,7 +247,7 @@ Foram relatadas falhas de comunicação em dois tipos de situação:
 - uma atividade atribuída a um turno futuro pode ser esquecida e precisar ser adiada;
 - uma restrição operacional anotada com antecedência para uma data futura pode perder visibilidade quando a data chega.
 
-Um registro histórico citou a expressão operacional “fazer vazio” no COMP-09. O relato não resolve a divergência sobre a identificação do equipamento, e o significado técnico da expressão não foi interpretado. Outro exemplo tratou de não ligar um compressor em determinada data. O RefrigOps pode apoiar registro, validade e confirmação de ciência, mas não pode decidir, bloquear, liberar ou comandar o equipamento.
+Um registro histórico citou a expressão operacional “fazer vazio” no COMP-09. O significado técnico da expressão não foi interpretado. Outro exemplo tratou de não ligar um compressor em determinada data. O RefrigOps pode apoiar registro, validade e confirmação de ciência, mas não pode decidir, bloquear, liberar ou comandar o equipamento.
 
 **[HIPÓTESE]** Um resumo estruturado poderia reduzir perda de contexto. O restante do processo atual ainda precisa ser observado e descrito sem suposições, inclusive o conteúdo que fica apenas na comunicação verbal.
 

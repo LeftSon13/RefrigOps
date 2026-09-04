@@ -147,24 +147,7 @@ Objetivo: criar DTO de resposta e impedir que a entidade JPA seja o contrato JSO
 
 ### COMP-09
 
-**[PENDENTE — DIVERGÊNCIA OPERACIONAL]** O pacote criado em 2026-08-29 passou a registrar o COMP-09 como existente, localizado na Sala 2, associado ao regime de `-10 °C` e equipado com inversor. O contexto operacional apresentado para esta revisão não contém o COMP-09. Nenhuma dessas afirmações deve ser tratada como confirmada até resposta explícita do responsável pelo projeto.
-
-Pergunta para validação:
-
-> O COMP-09 pertence ao inventário desta instalação? Em caso positivo, em qual sala e regime ele opera e possui inversor de frequência?
-
-Os registros que preservam menções ao COMP-09 estão identificados como pendentes nos próprios documentos:
-
-- [`01-contexto-operacional.md`](01-contexto-operacional.md);
-- [`03-regras-negocio-e-dominio.md`](03-regras-negocio-e-dominio.md);
-- [`04-medicoes-unidades-e-fontes.md`](04-medicoes-unidades-e-fontes.md);
-- [`12-guia-revisao-e-lacunas.md`](12-guia-revisao-e-lacunas.md);
-- [`pesquisa/2026-08-29-caderno-monitoramento-e-ronda.md`](pesquisa/2026-08-29-caderno-monitoramento-e-ronda.md);
-- [`pesquisa/2026-08-29-caderno-ocorrencias-e-passagem-turno.md`](pesquisa/2026-08-29-caderno-ocorrencias-e-passagem-turno.md);
-- [`pesquisa/2026-08-29-inventario-hmis-compressores.md`](pesquisa/2026-08-29-inventario-hmis-compressores.md);
-- [`pesquisa/2026-08-29-revisao-chat-historico-origem-refrigops.md`](pesquisa/2026-08-29-revisao-chat-historico-origem-refrigops.md);
-- [`pesquisa/2026-08-29-salas-regimes-e-classificacao-dos-compressores.md`](pesquisa/2026-08-29-salas-regimes-e-classificacao-dos-compressores.md);
-- [`pesquisa/matriz-inventario-operacional.md`](pesquisa/matriz-inventario-operacional.md).
+**[RESOLVIDO — CONTEXTO OPERACIONAL]** O responsável pelo projeto confirmou que o COMP-09 pertence à Sala de Máquinas 2, trabalha no regime de `-10 °C`, é classificado operacionalmente como compressor de alta, possui inversor de frequência e corresponde à foto 6 do inventário visual. O inventário documentado passa a conter 13 compressores classificados.
 
 ### Revisão antes de publicação pública
 
@@ -184,7 +167,7 @@ Não foram encontrados credenciais, tokens, senhas reais, dados pessoais ou ende
 
 ## Bloqueios
 
-Nenhum bloqueio técnico confirmado para finalizar a documentação. A divergência do COMP-09 não bloqueia o PR porque permanece explícita e não é apresentada como fato.
+Nenhum bloqueio técnico confirmado para finalizar a documentação. A divergência de sala, regime e classificação do COMP-09 foi resolvida.
 
 A implementação de regras de processo industrial continua bloqueada por descoberta e validação de domínio.
 
